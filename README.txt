@@ -53,7 +53,7 @@ Your program must implement the following API:
 public class Permutation {
    public static void main(String[] args)
 }
-You may assume that 0 ¡Ü k ¡Ü n, where n is the number of string on standard input.
+You may assume that 0 <= k <= n, where n is the number of string on standard input.
 Performance requirements. The running time of Permutation must be linear in the size of the input. You may use only a constant amount of memory plus either one Deque or RandomizedQueue object of maximum size at most n. (For an extra challenge, use only one Deque or RandomizedQueue object of maximum size at most k.)
 
 Deliverables. Submit only Deque.java, RandomizedQueue.java, and Permutation.java. We will supply algs4.jar. Do not call library functions except those in StdIn, StdOut, StdRandom, java.lang, java.util.Iterator, and java.util.NoSuchElementException. In particular, do not use either java.util.LinkedList or java.util.ArrayList.
