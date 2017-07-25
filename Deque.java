@@ -62,21 +62,42 @@ public class Deque<Item> implements Iterable<Item> {
 
     public Item removeFirst()
     {   // remove and return the item from the front{}
-        return null;
+        if (size == 0)
+            throw new java.util.NoSuchElementException("the deque is empty, nothing to remove");
+        else
+        {
+            Item tempValue = sentinel.next.value;
+            sentinel.next = sentinel.next.next;
+            sentinel.next.prev = sentinel;
+            return tempValue;
+
+
+        }
     }
 
     public Item removeLast()
     {   // remove and return the item from the end{}
-        return null;
+        if (size == 0)
+            throw new java.util.NoSuchElementException("the deque is empty, nothing to remove");
+        else
+        {
+            Item tempValue = sentinel.prev.value;
+            sentinel.prev = sentinel.prev.prev;
+            sentinel.prev.next = sentinel;
+            return tempValue;
+        }
     }
 
     private class InnerIterator implements Iterator<Item> {
         node startingNode = sentinel.next;
+
+        @Override
         public boolean hasNext()
         {
             return startingNode != sentinel;
         }
 
+        @Override
         public Item next()
         {
             if (!hasNext())
@@ -88,6 +109,11 @@ public class Deque<Item> implements Iterable<Item> {
                 return temValue;
             }
         }
+        @Override
+        public void remove()
+        {
+            throw new java.lang.UnsupportedOperationException("This operation is not supported here.");
+        }
     }
     public Iterator<Item> iterator()
     {   // return an iterator over items in order from front to end
@@ -97,15 +123,18 @@ public class Deque<Item> implements Iterable<Item> {
     public static void main(String[] args)    // unit testing (optional)
     {
         Deque<Integer> newdeque = new Deque<>();
-        newdeque.addFirst(1);
-        newdeque.addFirst(2);
-        newdeque.addFirst(3);
-        newdeque.addFirst(4);
-
+        newdeque.addLast(1);
+        newdeque.addLast(2);
+        newdeque.addLast(3);
+        newdeque.addLast(4);
+        newdeque.removeLast();
+        newdeque.addLast(1);
+        newdeque.addLast(2);
+        newdeque.addLast(3);
+        newdeque.addLast(4);
         for(int i: newdeque){
             System.out.print(i+" ");
         }
-
     }
 
 
