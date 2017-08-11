@@ -60,7 +60,11 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     }
     public Item sample()
     {   // return (but do not remove) a random item
-        return null;
+        if (size<=0)
+            throw new java.util.NoSuchElementException("The queue is empty, cannot dequeue anymore!");
+        int index = (int)(size*Math.random());
+        Item tempValue = hiddenArray[index];
+        return tempValue;
     }
 
     public Iterator<Item> iterator()
@@ -71,10 +75,11 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 
     public class IteratorClass<Item> implements Iterator<Item> {
         Item[] iteratorArray;
-        int tempSize = size;
+        int sizeCount =size;
         public IteratorClass()
         {
-            iteratorArray = (Item[]) new Object[size]
+            int tempSize = size;
+            iteratorArray = (Item[]) new Object[size];
             Item[] tempArray = (Item[]) new Object[size];
             for (int i=0; i< size; i++)
             {
@@ -85,35 +90,40 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             {
                 int index = (int)(Math.random()*tempSize);
                 iteratorArray[i] = tempArray[index];
-                tempArray[index] = hiddenArray[tempSize-1];
+                tempArray[index] = (Item)tempArray[tempSize-1];
+                tempSize--;
             }
-
 
         }
 
         @Override
         public boolean hasNext()
         {
-            return false;
+            return sizeCount>0;
         }
         @Override
 
         public Item next(){
-            return null;
-
-            java.util.NoSuchElementException
+            if (!hasNext())
+                throw new java.util.NoSuchElementException("Sorry the queue is already empty");
+            else
+            {
+                sizeCount--;
+                return iteratorArray[sizeCount];
+            }
+            //java.util.NoSuchElementException;
         }
     }
 
     public static void main(String[] args)
     {   // unit testing (optional)
         RandomizedQueue<Integer> newQueue = new RandomizedQueue<>();
-        int returnedValue;
         for (int i=0; i<20; i++)
             newQueue.enqueue(i);
+        Iterator<Integer> newIterator = newQueue.iterator();
 
-        for (int i=0; i<20; i++)
-            returnedValue = newQueue.dequeue();
+        while(newIterator.hasNext())
+            System.out.println(newIterator.next());
 
     }
 

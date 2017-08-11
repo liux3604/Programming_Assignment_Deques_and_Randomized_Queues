@@ -6,9 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
     </content>
+    <content url="jar://$MODULE_DIR$/library/algs4.jar!/" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="algs4" level="project" />
     <orderEntry type="library" name="junit-4.12" level="project" />
+    <orderEntry type="library" name="algs4" level="project" />
   </component>
 </module>

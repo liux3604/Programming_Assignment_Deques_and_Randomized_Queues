@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="606dcbfe-7fe2-4317-b5d6-73b29abc95e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/Deque.class" afterPath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/Deque.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Permutation.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/Deque$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/Deque$InnerIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/Deque$node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/Deque.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/RandomizedQueue$IteratorClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/RandomizedQueue.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_Assignment_Deques_and_Randomized_Queues.iml" afterPath="$PROJECT_DIR$/Programming_Assignment_Deques_and_Randomized_Queues.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RandomizedQueue.java" afterPath="$PROJECT_DIR$/RandomizedQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/Programming_Assignment_Deques_and_Randomized_Queues.iml" afterPath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/Programming_Assignment_Deques_and_Randomized_Queues.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/workspace.xml" afterPath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,22 +37,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomizedQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RandomizedQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RandomizedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="87" column="57" lean-forward="false" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
+            <state relative-caret-position="230">
+              <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#612#613#0" expanded="true" />
                 <element signature="e#668#669#0" expanded="true" />
                 <element signature="e#697#698#0" expanded="true" />
                 <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#1805#1806#0" expanded="true" />
-                <element signature="e#1878#1879#0" expanded="true" />
-                <element signature="e#2793#2794#0" expanded="true" />
-                <element signature="e#2829#2830#0" expanded="true" />
+                <element signature="e#3079#3080#0" expanded="true" />
+                <element signature="e#3121#3122#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Permutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StdIn.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$PROJECT_DIR$/library/algs4.jar!/edu/princeton/cs/algs4/StdIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="323" column="35" lean-forward="false" selection-start-line="323" selection-start-column="25" selection-end-line="323" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,6 +83,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>readString</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,14 +102,15 @@
       <list>
         <option value="$PROJECT_DIR$/Deque.java" />
         <option value="$PROJECT_DIR$/RandomizedQueue.java" />
+        <option value="$PROJECT_DIR$/Permutation.java" />
+        <option value="$PROJECT_DIR$/library/algs4.jar!/edu/princeton/cs/algs4/StdIn.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="866" />
-    <option name="height" value="498" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="50" />
+    <option name="width" value="1926" />
+    <option name="height" value="430" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -112,7 +138,33 @@
           <expand>
             <path>
               <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="47feb1d3:ProjectViewModuleNode" />
               <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="algs4.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="algs4.jar" type="ab9368bb:PsiFileNode" />
+              <item name="algs4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="b2602c69:ProjectViewProjectNode" />
@@ -128,9 +180,9 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/library" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.25791505" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/library/algs4.jar!/" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,7 +311,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -271,18 +323,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35177454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35177454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Style Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19270833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14791666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33298537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33298537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -296,15 +348,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/RandomizedQueue.java</url>
-          <line>114</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -342,19 +386,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RandomizedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="87" column="57" lean-forward="false" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
+        <state relative-caret-position="230">
+          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#612#613#0" expanded="true" />
             <element signature="e#668#669#0" expanded="true" />
             <element signature="e#697#698#0" expanded="true" />
             <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#1805#1806#0" expanded="true" />
-            <element signature="e#1878#1879#0" expanded="true" />
-            <element signature="e#2793#2794#0" expanded="true" />
-            <element signature="e#2829#2830#0" expanded="true" />
+            <element signature="e#3079#3080#0" expanded="true" />
+            <element signature="e#3121#3122#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/library/algs4.jar!/edu/princeton/cs/algs4/StdIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="323" column="35" lean-forward="false" selection-start-line="323" selection-start-column="25" selection-end-line="323" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -379,7 +437,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25791505" />
               </list>
             </option>
           </splitter-proportions>
@@ -414,7 +472,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25791505" />
                 <option value="0.6" />
               </list>
             </option>
@@ -435,11 +493,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>junit-4.12</last-edited>
+          <last-edited>algs4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25791505" />
               </list>
             </option>
           </splitter-proportions>
