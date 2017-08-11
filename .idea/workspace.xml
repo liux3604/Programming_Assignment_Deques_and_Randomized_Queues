@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="606dcbfe-7fe2-4317-b5d6-73b29abc95e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Permutation.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/Deque$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/Deque$InnerIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/Deque$node.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/Deque.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/RandomizedQueue$IteratorClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming_Assignment_Deques_and_Randomized_Queues/RandomizedQueue.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_Assignment_Deques_and_Randomized_Queues.iml" afterPath="$PROJECT_DIR$/Programming_Assignment_Deques_and_Randomized_Queues.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RandomizedQueue.java" afterPath="$PROJECT_DIR$/RandomizedQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Permutation.java" afterPath="$PROJECT_DIR$/Permutation.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +31,8 @@
       <file leaf-file-name="RandomizedQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RandomizedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            <state relative-caret-position="345">
+              <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#612#613#0" expanded="true" />
@@ -55,21 +46,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="379">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="distinct.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distinct.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StdIn.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StdIn.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/library/algs4.jar!/edu/princeton/cs/algs4/StdIn.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="323" column="35" lean-forward="false" selection-start-line="323" selection-start-column="25" selection-end-line="323" selection-end-column="35" />
+              <caret line="323" column="39" lean-forward="true" selection-start-line="323" selection-start-column="39" selection-end-line="323" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -102,8 +105,8 @@
       <list>
         <option value="$PROJECT_DIR$/Deque.java" />
         <option value="$PROJECT_DIR$/RandomizedQueue.java" />
-        <option value="$PROJECT_DIR$/Permutation.java" />
         <option value="$PROJECT_DIR$/library/algs4.jar!/edu/princeton/cs/algs4/StdIn.java" />
+        <option value="$PROJECT_DIR$/Permutation.java" />
       </list>
     </option>
   </component>
@@ -147,27 +150,6 @@
             </path>
             <path>
               <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
-              <item name="algs4.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
-              <item name="algs4.jar" type="ab9368bb:PsiFileNode" />
-              <item name="algs4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Programming_Assignment_Deques_and_Randomized_Queues" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -196,12 +178,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomizedQueue">
-    <configuration name="RandomizedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Permutation">
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="RandomizedQueue" />
+      <option name="MAIN_CLASS_NAME" value="Permutation" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="5 &lt; distinct.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -293,7 +275,7 @@
     </configuration>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.RandomizedQueue" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Permutation" />
       </list>
     </recent_temporary>
   </component>
@@ -384,10 +366,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/library/algs4.jar!/edu/princeton/cs/algs4/StdIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="323" column="39" lean-forward="true" selection-start-line="323" selection-start-column="39" selection-end-line="323" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RandomizedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        <state relative-caret-position="345">
+          <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#612#613#0" expanded="true" />
@@ -400,19 +390,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Permutation.java">
+    <entry file="file://$PROJECT_DIR$/distinct.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/library/algs4.jar!/edu/princeton/cs/algs4/StdIn.java">
+    <entry file="file://$PROJECT_DIR$/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="323" column="35" lean-forward="false" selection-start-line="323" selection-start-column="25" selection-end-line="323" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="379">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
